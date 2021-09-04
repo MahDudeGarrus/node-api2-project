@@ -8,6 +8,7 @@
     "resetdb": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "knex": "^0.95.10",
     "sqlite3": "^5.0.2"
   },
@@ -22,5 +23,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/node-api2-project.git"
-  }
+  },
+  "description": "Use `Node.js` and `Express` to build an API that performs _CRUD_ operations on `blog posts`.",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/node-api2-project/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/node-api2-project#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
